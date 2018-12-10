@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Circuito Penedo de Cinema",
+    "description": "O Circuito Penedo de Cinema é o aplicativo que permite votar nos filmes das categorias apresentadas no festival. Escolha seus filmes favoritos e fique torcida! O resultado será apresentado durante o dia de encerramento do evento!",
+    "slug": "circuitopenedodecinema",
+    "android": {
+      "package": "com.codecenter.circuitopenedodecinema",
+      "versionCode": 2
+    },
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
